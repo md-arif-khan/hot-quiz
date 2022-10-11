@@ -4,16 +4,18 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { EyeIcon } from '@heroicons/react/24/solid'
 import Header from '../Header/Header';
-const QuizItems = ({quizItem}) => {
+const QuizItems = ({quizItem,right,setRight,worng,setWorng}) => {
     const [disabled,setDisabled]=useState(false)
-    const [text,setText]=useState("")
+   
     const {question,id,correctAnswer,options}=quizItem;
    
     const handleQuiz=quiz=>{
         if(quiz==correctAnswer){
              toast("Correct Ans! ",{ position: toast.POSITION.TOP_CENTER});
+             setRight(right+1)
         }else{
             toast("Worng Ans!",{ position: toast.POSITION.TOP_CENTER});
+            setWorng(worng+1)
         }
         setDisabled(true)
     }

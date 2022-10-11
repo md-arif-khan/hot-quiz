@@ -1,69 +1,81 @@
-import React from "react";
-import Header from "../Header/Header";
+import React from 'react';
+import Header from '../Header/Header';
 
 const Blog = () => {
-  return (
-    <div>
-      <Header></Header>
-      <div className="dark:bg-gray-800 dark:text-gray-50">
-        <div className="container grid grid-cols-12 mx-auto dark:bg-gray-900">
-          <div
-            className="bg-no-repeat bg-cover dark:bg-gray-700 col-span-full lg:col-span-4"
-            style="background-image: url('https://source.unsplash.com/random/640x480'); background-position: center center; background-blend-mode: multiply; background-size: cover;"
-          ></div>
-          <div className="flex flex-col p-6 col-span-full row-span-full lg:col-span-8 lg:p-10">
-            <div className="flex justify-start">
-              <span className="px-2 py-1 text-xs rounded-full dark:bg-violet-400 dark:text-gray-900">
-                Label
-              </span>
+    return (
+     <div className='mb-20'>
+        <Header></Header>
+        <div className='flex justify-center '>
+           <div className="bg-gray-800 text-gray-100 w-4/5 mt-10">
+	<div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+		<div className="flex items-center justify-between">
+			<span className="text-sm dark:text-gray-400">Jun 1, 2020</span>
+			<a rel="noopener noreferrer" href="#" className="px-2 py-1 font-bold rounded dark:bg-violet-400 dark:text-gray-900">Javascript</a>
+		</div>
+		<div className="mt-3">
+			<a rel="noopener noreferrer" href="#" className="text-2xl font-bold hover:underline">What is react-router-dom ?</a>
+			<p className="mt-2">React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them. It is a fully-featured client and server-side routing library for React.</p>
+		</div>
+		<div className="flex items-center justify-between mt-4">
+			
+			<div>
+				<a rel="noopener noreferrer" href="#" className="flex items-center">
+					<img src="https://source.unsplash.com/50x50/?portrait" alt="avatar" className="object-cover w-10 h-10 mx-4 rounded-full dark:bg-gray-500" />
+					<span className="hover:underline dark:text-gray-400">Leroy Jenkins</span>
+				</a>
+			</div>
+		</div>
+	</div>
             </div>
-            <h1 className="text-3xl font-semibold">Lorem ipsum dolor sit.</h1>
-            <p className="flex-1 pt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-              reprehenderit adipisci tempore voluptas laborum quod.
-            </p>
-            <a
-              rel="noopener noreferrer"
-              href="#"
-              className="inline-flex items-center pt-2 pb-6 space-x-2 text-sm dark:text-violet-400"
-            >
-              <span>Read more</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-4 h-4"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </a>
-            <div className="flex items-center justify-between pt-2">
-              <div className="flex space-x-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="w-5 h-5 dark:text-gray-400"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-                <span className="self-center text-sm">by Leroy Jenkins</span>
-              </div>
-              <span className="text-xs">3 min read</span>
+         </div>
+         <div className='flex justify-center'>
+           <div className="bg-gray-800 text-gray-100 w-4/5 mt-10">
+	<div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+		<div className="flex items-center justify-between">
+			<span className="text-sm dark:text-gray-400">Jun 1, 2020</span>
+			<a rel="noopener noreferrer" href="#" className="px-2 py-1 font-bold rounded dark:bg-violet-400 dark:text-gray-900">Javascript</a>
+		</div>
+		<div className="mt-3">
+			<a rel="noopener noreferrer" href="#" className="text-2xl font-bold hover:underline">How does Context api work?</a>
+			<p className="mt-2">The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.</p>
+		</div>
+		<div className="flex items-center justify-between mt-4">
+			
+			<div>
+				<a rel="noopener noreferrer" href="#" className="flex items-center">
+					<img src="https://source.unsplash.com/50x50/?portrait" alt="avatar" className="object-cover w-10 h-10 mx-4 rounded-full dark:bg-gray-500" />
+					<span className="hover:underline dark:text-gray-400">Leroy Jenkins</span>
+				</a>
+			</div>
+		</div>
+	</div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+         </div>
+         <div className='flex justify-center'>
+           <div className="bg-gray-800 text-gray-100 w-4/5 mt-10">
+	<div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
+		<div className="flex items-center justify-between">
+			<span className="text-sm dark:text-gray-400">Jun 1, 2020</span>
+			<a rel="noopener noreferrer" href="#" className="px-2 py-1 font-bold rounded dark:bg-violet-400 dark:text-gray-900">Javascript</a>
+		</div>
+		<div className="mt-3">
+			<a rel="noopener noreferrer" href="#" className="text-2xl font-bold hover:underline">What is useRef in React?</a>
+			<p className="mt-2">The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.</p>
+		</div>
+		<div className="flex items-center justify-between mt-4">
+			
+			<div>
+				<a rel="noopener noreferrer" href="#" className="flex items-center">
+					<img src="https://source.unsplash.com/50x50/?portrait" alt="avatar" className="object-cover w-10 h-10 mx-4 rounded-full dark:bg-gray-500" />
+					<span className="hover:underline dark:text-gray-400">Leroy Jenkins</span>
+				</a>
+			</div>
+		</div>
+	</div>
+            </div>
+         </div>
+     </div>
+    );
 };
 
 export default Blog;
