@@ -9,7 +9,7 @@ const Blog = () => {
            <div className="bg-gray-800 text-gray-100 w-4/5 mt-10">
 	<div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
 		<div className="flex items-center justify-between">
-			<span className="text-sm dark:text-gray-400">Jun 1, 2020</span>
+			<span className="text-sm dark:text-gray-400">Jun 1, 2022</span>
 			<a rel="noopener noreferrer" href="#" className="px-2 py-1 font-bold rounded dark:bg-violet-400 dark:text-gray-900">Javascript</a>
 		</div>
 		<div className="mt-3">
@@ -32,7 +32,7 @@ const Blog = () => {
            <div className="bg-gray-800 text-gray-100 w-4/5 mt-10">
 	<div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
 		<div className="flex items-center justify-between">
-			<span className="text-sm dark:text-gray-400">Jun 1, 2020</span>
+			<span className="text-sm dark:text-gray-400">Jun 1, 2022</span>
 			<a rel="noopener noreferrer" href="#" className="px-2 py-1 font-bold rounded dark:bg-violet-400 dark:text-gray-900">Javascript</a>
 		</div>
 		<div className="mt-3">
@@ -55,7 +55,7 @@ const Blog = () => {
            <div className="bg-gray-800 text-gray-100 w-4/5 mt-10">
 	<div className="container max-w-4xl px-10 py-6 mx-auto rounded-lg shadow-sm dark:bg-gray-900">
 		<div className="flex items-center justify-between">
-			<span className="text-sm dark:text-gray-400">Jun 1, 2020</span>
+			<span className="text-sm dark:text-gray-400">Jun 1, 2022</span>
 			<a rel="noopener noreferrer" href="#" className="px-2 py-1 font-bold rounded dark:bg-violet-400 dark:text-gray-900">Javascript</a>
 		</div>
 		<div className="mt-3">
