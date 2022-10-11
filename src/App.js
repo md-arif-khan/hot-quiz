@@ -1,10 +1,14 @@
+import Banner from "./components/Banner/Banner";
+import Header from "./components/Header/Header";
 
 
 
 function App() {
   return (
     <div>
-       <h1>This is app js</h1>
+      
+       <Header></Header>
+       <Banner></Banner>
     </div>
   );
 }
