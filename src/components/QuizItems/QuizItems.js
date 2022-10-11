@@ -3,6 +3,7 @@ import Item from '../Item/Item';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { EyeIcon } from '@heroicons/react/24/solid'
+import Header from '../Header/Header';
 const QuizItems = ({quizItem}) => {
     const [disabled,setDisabled]=useState(false)
     const [text,setText]=useState("")
@@ -19,7 +20,9 @@ const QuizItems = ({quizItem}) => {
    
     const notify = () => toast(correctAnswer);
     return (
-        <div className='flex justify-center mb-10'>
+       
+        
+             <div className='flex justify-center mb-10'>
             <div className='w-3/5 border  mt-8 p-5 bg-teal-500 text-white rounded-lg'>
                 <div className='p-5 justify-between flex'>
                     <p>{question}</p>
@@ -34,6 +37,7 @@ const QuizItems = ({quizItem}) => {
             <ToastContainer />
             
         </div>
+       
     );
 };
 

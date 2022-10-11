@@ -8,6 +8,7 @@ const Home = () => {
     const quizTopic =useLoaderData()
     
     
+    
     return (
         <div>
             <Header></Header>

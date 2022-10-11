@@ -6,7 +6,7 @@ const {logo,name,total,id}=quiz;
 
   return (
     <div>
-      <div className="card card-compact bg-[#a19a9a62]  bg-base-100 shadow-xl border">
+      <div className="card card-compact bg-[#b4acac94]  bg-base-100 shadow-xl border">
         <figure>
           <img src={logo} alt="Shoes" />
         </figure>
